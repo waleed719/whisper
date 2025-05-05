@@ -21,7 +21,7 @@ class Notifications {
       _flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
   static const String _fcmEndpoint =
-      'https://fcm.googleapis.com/v1/projects/whisper-204ee/messages:send';
+      '';
 
   // Initialize Firebase and request permissions for notifications
   static Future<void> initialize() async {
